@@ -1,0 +1,31 @@
+# linux基础命令
+* 查看服务器基本配置  
+    
+        lscpu 查看cpu
+        free -h  查看内存
+        lsblk 查看硬盘
+        lspci 查看网卡
+* 查看操作系统版本和ip  
+        
+        cat /etc/redhat-release 查看版本
+        cat /etc/os-release  centos6无法使用该命令
+        hostname -I 查看IP
+        hostname  查看该服务器名字，命名需要规范  
+        地区-区-用处-编号 例如：Bj-Ali-test-core-service-01
+        ip addr 查看ip
+* 账户权限  
+
+        最好不要用root权限，因为超级管理员误操作可能会导致系统出现故障
+
+* 其他常用命令  
+
+        ps aux 展示该系统的进程
+        which xx 查找命令所在目录
+        alias free="free -h" 设置别名，临时的
+        init 0 重启服务器
+        reboot 重启服务器
+        poweroff 重启服务器
+        type xx 查看该命令是系统命令还是应用命令
+        enable -n xx 禁用该系统命令
+        enable xx 启用该系统命令
+
