@@ -1,0 +1,38 @@
+# linux常用命令
+* 文件文件夹操作  
+            
+            ls                  列出当前目录下所有文件和文件夹
+            ls -a               列出当前目录及隐藏的.文件
+            ls -l test*         列出当前目录下以test开头的文件
+
+            cd test             进入test目录下
+            cd ..               返回上一层
+            cd /data/notify     进入data目录下notify文件夹
+
+            mkdir test          创建test文件夹
+            mkdir test/test1    在test文件夹下创建test1文件夹
+            mkdir -m 777 test   创建权限为777的test文件夹
+
+            rm test.txt         删除test.txt文件，会提示
+            rm -f test.txt      强制删除test.txt，不提示
+            rm -rf test         删除test文件夹及目录下所有内容
+
+            rmdir test          删除test文件夹，如果test文件有东西，不能删除
+
+            mv test.py test1.py 重命名
+            mv test.py test     将test.py移动到test目录下
+            mv test.py test1.py test    将test.py test1.py 移动到test目录下
+
+            cp test.py test     将test.py文件复制到test目录下
+            cp -a test test1    将test文件夹复制到test1目录下
+
+            touch test.py       创建test.py文件
+
+* 查看日志文件命令  
+
+            cat test.log        展示test.log全部内容
+            cat -n test.log     内容增加行数
+            tac test.log        倒序展示
+            cat test.log | grep tx  展示tx所在行的内容
+
+            
