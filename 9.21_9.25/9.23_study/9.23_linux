@@ -1,0 +1,30 @@
+# linux命令 
+
+*   别名操作        
+
+             alias free="free -h"       设置别名，临时的
+             echo 'alias free="free -h"' >> .bashrc 永久的
+             source .bashrc             刷新下配置才能立即生效
+             unalias free               临时取消别名
+             \free                      临时取消别名
+             "free"                     临时取消别名
+             'free'                     临时取消别名
+
+*   时间操作
+
+            date 显示系统时间
+            date +"%y-%m-%d"   年月日格式显示
+            clock   显示硬件时间
+            clock -s    以硬件时间为准，校准系统时间
+            clock -w    以系统时间为准，校准硬件时间
+            cal -y      日历
+            cal 2019    显示2019年日历
+*   后台运行命令
+
+            screen  -s 新建窗口，后台持续运行
+            screen  -x help 远程加入操作
+*   查看登录人
+
+            who 谁登录过这个系统
+            whoami  当前用户是谁
+            

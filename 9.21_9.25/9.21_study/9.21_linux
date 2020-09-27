@@ -22,7 +22,7 @@
         ps aux 展示该系统的进程
         which xx 查找命令所在目录
         whereis mysql 查找mysql的目录
-        alias free="free -h" 设置别名，临时的
+        pwd     查看当前目录
         init 0 重启服务器
         reboot 重启服务器
         poweroff 重启服务器
