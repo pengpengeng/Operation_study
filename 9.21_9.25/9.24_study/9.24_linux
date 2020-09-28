@@ -1,0 +1,38 @@
+# linux常用命令
+* 操作文件
+
+        vim xx.txt      打开xx.txt
+        vi  xx.txt      打开xx.txt
+        E               进入编辑权限
+        I               切换到输入模式
+        :set nu         显示行数
+        :set nonu       取消显示行数
+        : 35            到35行
+        /zhangpeng      查找带zhangpeng的内容
+        n               查找下一个
+        ctrl+u          撤销上次操作
+        :Q              退出
+        :Q!             强行退出
+        :x              保存并退出
+        :w              保存文件
+
+*   修改文件权限
+
+        chmod  777 a.txt        所有人都有读写运行权限
+        chmod ugo+r+w+x a.txt   所有人都有读写运行权限
+        chmod a+r+w+x a.txt     所有人都有读写运行权限
+        u(user)                 代表用户
+        g(group)                代表同组用户
+        o(others)               代表其他用户
+        a                       代表所有用户
+        r(read)                 代表阅读权限
+        w(write)                代表编辑权限
+        x()                     代表运行权限
+        组合起来便是
+        chmod   u+r+w+x,g+r+w,o+x   a.txt
+        对应r==4 w==2 x=1
+        chmod 764 a.txt         代表用户读写运行，组用户读写，其他用户执行
+
+        
+
+

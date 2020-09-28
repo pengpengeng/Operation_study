@@ -34,4 +34,6 @@
             cat -n test.log     内容增加行数
             tac test.log        倒序展示
             cat test.log | grep tx  展示包含"tx"所在行的内容
+            tail -30f   test.log    查看test.log最后30行，会实时更新
+            head   -n 5 test.log    展示test.log前5行
 

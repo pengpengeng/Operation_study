@@ -1,0 +1,33 @@
+# linux 常用命令
+*   筛选命令
+    
+        grep "a" test.log   筛选在test.log文件中包含a的行
+        grep -c "6" test.log    筛选在test.log文件中包含6的总行数
+        grep -vn  "6" test.log  筛选在test.log文件中不包含6的行
+
+*   压缩文件
+
+
+        tar -zvxf test.tar.gz  解压test.tar.gz
+        tar -jvxf test.tar.bz2  解压test.tar.bz2
+        tar -zvcf test.tar.gz test  将test目录压缩，z==gzip
+        tar -jvcf test.tar.bz2 test     将test目录压缩j==bzip2
+        zip -r test1.zip test  将test目录压缩
+        unzip test1.zip         解压test1.zip
+*   安装命令
+
+        yum list python 列出可安装的清单包含python的
+        yum install python  安装python
+        yum update python 更新python
+        yum remove python 删除python
+        yum update 全部更新
+*   下载命令
+
+        wget https://www.baidu.com 下载百度首页html
+        wget -O test.html https://www.baidu.com  下载百度首页html并重命名未test.html
+
+        
+
+
+    
+    
