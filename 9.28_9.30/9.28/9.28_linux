@@ -1,0 +1,41 @@
+# linux常用命令
+
+* ## 把一个命令的输出结果，当做另一个命令的参数
+
+        [root@BC-Ali-test-db-01 ~]# echo "我是`hostname`"
+        我是BC-Ali-test-db-01
+        [root@BC-Ali-test-db-01 ~]# echo 我才不是$(hostname)
+        我才不是BC-Ali-test-db-01
+        [root@BC-Ali-test-db-01 ~]# echo "今天是$(date +%F)"
+        今天是2020-10-10
+
+
+* ## {}的使用
+
+        [root@BC-Ali-test-db-01 ~]# echo {0..10}
+        0 1 2 3 4 5 6 7 8 9 10
+        [root@BC-Ali-test-db-01 ~]# echo {a..z}
+        a b c d e f g h i j k l m n o p q r s t u v w x y z
+        [root@BC-Ali-test-db-01 ~]# echo {1..10..2}
+        1 3 5 7 9
+        [root@BC-Ali-test-db-01 ~]# echo {0001..10}
+        0001 0002 0003 0004 0005 0006 0007 0008 0009 0010
+
+* ## tab的使用
+
+        tab有自动补全效果
+        hostn+tab=hostname
+        tast+tab+tab:
+
+        [root@BC-Ali-test-web-01 ~]# host
+        host         hostid       hostname     hostnamectl  
+
+        文件也有自动补全效果
+        te+tab=test.log
+
+* ## history
+
+        history 列出最近的常用命令
+        ！+编号  执行最近的某条命令
+
+
