@@ -1,0 +1,1 @@
+adb shell input tap 136.8 1270.1

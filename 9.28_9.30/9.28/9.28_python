@@ -1,0 +1,86 @@
+# -*- coding: UTF-8 -*
+import  time
+import os
+for i in range(0,100):
+    print(str(i)+"开始中inging")
+    # 1
+    os.system("adb shell input tap 247.6 790")
+    time.sleep(0.5)
+    os.system("adb shell input tap 500 317")
+    time.sleep(0.5)
+    os.system("adb shell input tap 435 375")
+    time.sleep(0.5)
+
+    #2
+    os.system("adb shell input tap 341.6 744")
+    time.sleep(0.5)
+    os.system("adb shell input tap 500 317")
+    time.sleep(0.5)
+    os.system("adb shell input tap 435 375")
+    time.sleep(0.5)
+
+    #3
+    os.system("adb shell input tap 441 704")
+    time.sleep(0.5)
+    os.system("adb shell input tap 500 317")
+    time.sleep(0.5)
+    os.system("adb shell input tap 435 375")
+    time.sleep(0.5)
+
+    #4
+    os.system("adb shell input tap 236 897")
+    time.sleep(0.5)
+    os.system("adb shell input tap 500 317")
+    time.sleep(0.5)
+    os.system("adb shell input tap 435 375")
+    time.sleep(0.5)
+
+    #5
+    os.system("adb shell input tap 339 946")
+    time.sleep(0.5)
+    os.system("adb shell input tap 500 317")
+    time.sleep(0.5)
+    os.system("adb shell input tap 435 375")
+    time.sleep(0.5)
+
+    #6
+    os.system("adb shell input tap 446 892")
+    time.sleep(0.5)
+    os.system("adb shell input tap 500 317")
+    time.sleep(0.5)
+    os.system("adb shell input tap 435 375")
+    time.sleep(0.5)
+
+    #7
+    os.system("adb shell input tap 438 997")
+    time.sleep(0.5)
+    os.system("adb shell input tap 500 317")
+    time.sleep(0.5)
+    os.system("adb shell input tap 435 375")
+    time.sleep(0.5)
+
+    #8
+    os.system("adb shell input tap 546 951")
+    time.sleep(0.5)
+    os.system("adb shell input tap 500 317")
+    time.sleep(0.5)
+    os.system("adb shell input tap 435 375")
+    time.sleep(0.5)
+
+    #9
+    os.system("adb shell input tap 659 897")
+    time.sleep(0.5)
+    os.system("adb shell input tap 500 317")
+    time.sleep(0.5)
+    os.system("adb shell input tap 435 375")
+    time.sleep(0.5)
+
+    #10
+    os.system("adb shell input tap 752 849")
+    time.sleep(0.5)
+    os.system("adb shell input tap 500 317")
+    time.sleep(0.5)
+    os.system("adb shell input tap 435 375")
+    time.sleep(0.5)
+    print("结束")
+    time.sleep(100)
